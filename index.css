@@ -1,0 +1,58 @@
+body{
+    font-family: 'Roboto Condensed','Roboto', sans-serif;
+}
+
+h1 {
+    display: inline-block;
+    font-size: 22px;
+    font-style: normal;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: black;
+    text-align: left;
+    padding-left: 14.5px;
+    padding-right: 14.5px; 
+}
+
+/*
+h2 {
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    padding-right: 0;
+}
+*/
+a:link, a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    margin: 0; /* Обнуляем значение отступов */
+    text-align: right;
+    display: inline-block;
+    position: relative;
+    left: 463px;
+}
+
+ul li {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    display: inline-block; /* Отображать как строчный элемент */
+  /*  margin-right: 5px; /* Отступ слева */
+    padding-left: 14.5px; /* Значение полей */
+    padding-right: 14.5px; 
+   }
+
+   #rectangle_navbar{
+    width: 1002px;
+    height: 56px;
+    background: white;
+    display: inline-block;
+}
+
+   #rectangle_main_dark{
+    width: 1002px;
+    height: 404px;
+    background: #292929 ;
+}
