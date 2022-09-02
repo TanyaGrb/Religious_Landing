@@ -13,25 +13,29 @@ h1 {
     padding-right: 14.5px; 
 }
 
-/*
+
 h2 {
-    font-size: 17px;
+    font-size: 30px;
     font-family: 'Roboto', sans-serif;
-    color: black;
-    padding-right: 0;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+    padding-left: 72px;
+    padding-right: 72px;
 }
-*/
+
 a:link, a:visited {
     text-decoration: none;
     color: black;
 }
 
 ul {
-    margin: 0; /* Обнуляем значение отступов */
+    float: right;
     text-align: right;
-    display: inline-block;
+    /*display: inline-block;
     position: relative;
-    left: 463px;
+    left: 463px;*/
+    
 }
 
 ul li {
@@ -44,15 +48,23 @@ ul li {
     padding-right: 14.5px; 
    }
 
-   #rectangle_navbar{
-    width: 1002px;
+#rectangle_navbar{
+    /*width: 1002px;*/
     height: 56px;
     background: white;
-    display: inline-block;
-}
+    /*display: inline-block;*/
+    }
 
-   #rectangle_main_dark{
-    width: 1002px;
+#rectangle_main_dark{
+    /*display: inline-block;*/
+    float: left;
     height: 404px;
     background: #292929 ;
-}
+    }
+
+#main_pic_r{
+    width: 577px;
+    height: 404px;
+    /*display: inline-block;*/
+    float: right;
+    }
