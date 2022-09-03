@@ -1,4 +1,4 @@
-body{
+body {
     font-family: 'Roboto Condensed','Roboto', sans-serif;
 }
 
@@ -13,29 +13,59 @@ h1 {
     padding-right: 14.5px; 
 }
 
-
 h2 {
     font-size: 30px;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     color: white;
-    text-align: center;
+    text-align: left;
     padding-left: 72px;
-    padding-right: 72px;
+    padding-top: 125px;
+    margin-top: 0px;
+}
+
+h3 {
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: black;
+    text-align: left;
+    padding-left: 72px;
+    padding-top: 125px;
+    margin-top: 0px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14;
+    text-align: left;
+    padding-left: 72px;
+    /*padding-right: 72px;*/
+    color: white;
+}
+
+.pblack { 
+    color: black;    
 }
 
 a:link, a:visited {
     text-decoration: none;
-    color: black;
+    font-weight: 400;
+    font-size: 15;
+}
+
+.awhite {
+    color: white;    
+}
+
+.ablack {
+    color: black;    
 }
 
 ul {
     float: right;
-    text-align: right;
-    /*display: inline-block;
-    position: relative;
-    left: 463px;*/
-    
+    text-align: right; 
 }
 
 ul li {
@@ -43,28 +73,52 @@ ul li {
     font-family: 'Roboto', sans-serif;
     color: black;
     display: inline-block; /* Отображать как строчный элемент */
-  /*  margin-right: 5px; /* Отступ слева */
     padding-left: 14.5px; /* Значение полей */
     padding-right: 14.5px; 
    }
 
 #rectangle_navbar{
-    /*width: 1002px;*/
     height: 56px;
     background: white;
-    /*display: inline-block;*/
     }
 
 #rectangle_main_dark{
-    /*display: inline-block;*/
-    float: left;
+    margin: 0px;
+    max-width: 100%;
     height: 404px;
     background: #292929 ;
     }
 
-#main_pic_r{
-    width: 577px;
+#rectangle_main_white{
+    margin: 0px;
+    max-width: 100%;
     height: 404px;
-    /*display: inline-block;*/
+    background: white ;
+    }
+
+#rectangle_txt_white{
+    margin: 0px;
+    height: 404px;
+    padding-top: 0px;
+    padding-right: 72px;
+    background: white ;
+    }
+
+#rectangle_txt_dark{
+    margin: 0px;
+    height: 404px;
+    padding-left: 72px;
+    background: #292929 ;
+    }
+
+#main_pic_r{
+    max-width: 577px;
+    height: 404px;
     float: right;
+    }
+
+#main_pic_w{
+    max-width: 577px;
+    height: 404px;
+    float: left;
     }
